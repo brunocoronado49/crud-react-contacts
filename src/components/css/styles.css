@@ -1,0 +1,113 @@
+.logo img {
+    width: 500px;
+    padding: 50px 100px 80px 50px;
+    float: left;
+}
+
+.info h4 {
+    text-align: justify;
+    padding: 0 50px 0 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #62c8f0;
+}
+
+.form {
+    text-align: center;
+    align-items: center;
+}
+
+.form input {
+    display: inline-block;
+    width: 60%;
+    border: none;
+    padding: 15px;
+    border-bottom: 2px solid #1e272e;
+    background-color: #d2dae2;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.btn-form {
+    transition: all 0.5s ease;
+    width: 40%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #62c8f0;
+    color: #d2dae2;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-form:hover {
+    background-color: #4089b0;
+}
+
+.content {
+    padding: 0 40px 40px 40px;
+}
+
+.center {
+    padding-left: 100px;
+}
+
+.card {
+    transition: all 0.5s ease;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #1e272e;
+    color: #d2dae2;
+    width: 40%;
+    cursor: pointer;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+.container-card {
+    padding: 5px 10px 10px 20px;
+    align-items: center;
+}
+
+.card .container-card h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+    transition: all 0.5s ease;
+    margin: 5px;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    color: #d2dae2;
+}
+
+.edit {
+    background-color: #62c8f0;
+}
+
+.edit:hover {
+    background-color: #4089b0;
+}
+
+.delete {
+    background-color: #d31e11;
+}
+
+.delete:hover {
+    background-color: #90201a;
+}

@@ -1,0 +1,26 @@
+ul {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    background-color: #131315;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    transition: all 0.3s ease;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    color: #62c8f0;
+}
+

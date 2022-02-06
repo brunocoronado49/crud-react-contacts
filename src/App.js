@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route } from 'wouter';
+import Nav from './components/menu/Nav';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contacts from './pages/Contacts';
+import CreateContact from './pages/CreateContact';
+import UpdateContact from './pages/UpdateContact';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav/>
+      <section className="App-content">
+        <Route path="/" component={Home} />
+        <Route path="/contacts" component={Contacts} />
+        <Route path="/create-contact" component={CreateContact} />
+        <Route path="/edit-contact/:id" component={UpdateContact} />
+        <Route path="/about" component={About}/>
+      </section>
     </div>
   );
 }

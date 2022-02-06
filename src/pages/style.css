@@ -1,0 +1,11 @@
+.container {
+    padding: 40px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
